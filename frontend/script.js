@@ -1,7 +1,7 @@
 // script.js
 
 // API 기본 URL (환경에 맞게 수정)
-const API_BASE_URL = 'http://<여러분의_EC2_Public_IP>:8000';
+const API_BASE_URL = 'http://3.25.161.6:8000';
 
 // 전역 상태
 let currentView = 'list';
