@@ -426,7 +426,7 @@ function escapeHtml(text) {
 }
 
 function connectWebSocket() {
-    socket = new WebSocket('ws://localhost:8000/ws');
+    socket = new WebSocket('ws://http://3.25.161.6/ws');
 
     socket.onmessage = (event) => {
         const data = JSON.parse(event.data);
