@@ -1,0 +1,23 @@
+# FastAPI 및 웹 프레임워크
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+
+# 데이터 검증
+pydantic==2.5.0
+pydantic-settings==2.1.0
+
+# 데이터베이스
+sqlalchemy==2.0.23
+pymysql==1.1.0
+alembic==1.13.0
+
+# 환경 변수
+python-dotenv==1.0.0
+
+# 암호화 (PyMySQL 의존성)
+cryptography==41.0.7
+
+# 유틸리티
+python-multipart==0.0.6
+
+PyMySQL

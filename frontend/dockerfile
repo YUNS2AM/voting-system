@@ -1,0 +1,10 @@
+# Dockerfile (프론트엔드용)
+
+# 1. Nginx 베이스 이미지 사용
+FROM nginx:alpine
+
+# 2. 로컬의 프론트엔드 파일들을 Nginx의 기본 웹페이지 폴더로 복사
+COPY . /usr/share/nginx/html
+
+# 3. 80번 포트 개방 (Nginx 기본 포트)
+EXPOSE 80
